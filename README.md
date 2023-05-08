@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+We start by importing the necessary libraries: React, useState (a hook for managing state in functional components), axios (a library for making HTTP requests), and Plotly (a library for creating charts).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+We define a functional component called App, which represents our main application.
 
-## Available Scripts
+Inside the component, we define three pieces of state using the useState hook: data (an array representing the histogram data), loading (a boolean indicating whether the data is currently being fetched), and error (a string representing any error messages that occur during fetching).
 
-In the project directory, you can run:
+We define a function called fetchData, which is called when the Submit button is clicked. Inside this function, we first set the loading state to true, and then make an HTTP GET request to the URL https://www.terriblytinytales.com/test.txt. If the request is successful.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## libraries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. axios: we can use Axios in React to make HTTP requests to external APIs or servers.
 
-### `npm test`
+2. react-plotly.js : we can use react-plotly.js to create a histogram in React. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## The component initializes three state variables using the useState hook:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+data: an array that will hold the data for the histogram to be displayed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+loading: a boolean that indicates whether data is currently being fetched or not.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+error: a string that holds an error message if there was an error while fetching data.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## The component defines two functions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+fetchData: an asynchronous function that fetches the contents of a text file from a URL and calculates the frequency of occurrence of each word using regular expressions and loops. It then constructs the histogram data and sets the "data" state variable to it. If there is an error, it sets the "error" state variable with an error message.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+exportCSV: a function that constructs a CSV file from the histogram data and allows the user to download it.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## The Plot component takes two props:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+data: an array of objects that defines the data to be plotted on the histogram. Each object in the array represents a word and its frequency count.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+layout: an object that defines the layout of the histogram. It includes the width, height, title, and axis titles.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
