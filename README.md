@@ -42,3 +42,7 @@ layout: an object that defines the layout of the histogram. It includes the widt
 
 
 ![Web capture_9-5-2023_1134_localhost](https://user-images.githubusercontent.com/122161959/236926057-14766aaa-e1bd-4c53-88e6-379e688803bd.jpeg)
+
+## CSV file Image
+![Screenshot 2023-05-09 015300](https://user-images.githubusercontent.com/122161959/236926559-2958ac82-3c3a-4df1-ab81-84811f56bb41.png)
+
