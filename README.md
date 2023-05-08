@@ -37,8 +37,8 @@ data: an array of objects that defines the data to be plotted on the histogram. 
 layout: an object that defines the layout of the histogram. It includes the width, height, title, and axis titles.
 
 ## Output Images
-![Web capture_9-5-2023_1134_localhost](https://user-images.githubusercontent.com/122161959/236926057-14766aaa-e1bd-4c53-88e6-379e688803bd.jpeg)
-
-
 
 ![Web capture_9-5-2023_1113_localhost](https://user-images.githubusercontent.com/122161959/236926085-ae01027b-6566-4e1c-95b3-a9a06c48925e.jpeg)
+
+
+![Web capture_9-5-2023_1134_localhost](https://user-images.githubusercontent.com/122161959/236926057-14766aaa-e1bd-4c53-88e6-379e688803bd.jpeg)
