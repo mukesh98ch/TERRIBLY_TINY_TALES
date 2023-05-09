@@ -1,4 +1,4 @@
-We start by importing the necessary libraries: React, useState (a hook for managing state in functional components), axios (a library for making HTTP requests), and Plotly (a library for creating charts).
+I start by importing the necessary libraries: React, useState (a hook for managing state in functional components), axios (a library for making HTTP requests), and Plotly (a library for creating charts).
 
 We define a functional component called App, which represents our main application.
 
@@ -38,7 +38,10 @@ layout: an object that defines the layout of the histogram. It includes the widt
 
 ## Output Images
 ![Web capture_9-5-2023_1113_localhost](https://user-images.githubusercontent.com/122161959/236927181-042fb354-1b10-4e96-b8c8-a75fb49e4b05.jpeg)
-![Web capture_9-5-2023_1134_localhost](https://user-images.githubusercontent.com/122161959/236927225-81abc20e-0518-4e88-a028-b52c8bf2922b.jpeg)
 
+## Histogram
+![Web capture_9-5-2023_1134_localhost](https://user-images.githubusercontent.com/122161959/236927225-81abc20e-0518-4e88-a028-b52c8bf2922b.jpeg)
+## Click on Export button
+CSV file will download.
 ## CSV file
 ![Screenshot 2023-05-09 015300](https://user-images.githubusercontent.com/122161959/236927239-01324af0-7181-4b1e-b01b-80a3dfc97d29.png)
