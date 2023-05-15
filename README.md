@@ -1,7 +1,10 @@
 ## Live Link
 https://terribletinytalesmukesh.netlify.app
 
-## Explanation
+## Explanation 
+
+Code is available in App.Js and App.css
+
 I start by importing the necessary libraries: React, useState (a hook for managing state in functional components), axios (a library for making HTTP requests), and Plotly (a library for creating charts).
 
 We define a functional component called App, which represents our main application.
